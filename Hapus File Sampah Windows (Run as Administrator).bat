@@ -12,6 +12,24 @@ echo 4. PERLU DIPERHATIKAN: Menghapus cache update (DISM) berarti Anda tidak
 echo    dapat mencopot pemasangan update Windows yang sudah terinstal.
 echo ===============================================
 echo.
+:: ASCII Art DANISHTZY24
+chcp 65001 >nul
+echo.
+echo   ██████╗  █████╗ ███╗   ██╗██╗███████╗██╗  ██╗████████╗███████╗██╗   ██╗
+echo   ██╔══██╗██╔══██╗████╗  ██║██║██╔════╝██║  ██║╚══██╔══╝╚══███╔╝╚██╗ ██╔╝
+echo   ██║  ██║███████║██╔██╗ ██║██║███████╗███████║   ██║     ███╔╝  ╚████╔╝ 
+echo   ██║  ██║██╔══██║██║╚██╗██║██║╚════██║██╔══██║   ██║    ███╔╝    ╚██╔╝  
+echo   ██████╔╝██║  ██║██║ ╚████║██║███████║██║  ██║   ██║   ███████╗   ██║   
+echo   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝   ╚═╝   
+echo.
+echo                              ██████╗ ██╗  ██╗
+echo                              ╚════██╗██║  ██║
+echo                               █████╔╝███████║
+echo                              ██╔═══╝ ╚════██║
+echo                              ███████╗     ██║
+echo                              ╚══════╝     ╚═╝
+echo.
+
 echo Wajib jalankan Run as Administrator!
 echo Pencet Enter buat lanjut atau Ctrl+C buat batalin.
 pause >nul
