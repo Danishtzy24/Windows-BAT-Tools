@@ -12,7 +12,9 @@ echo 4. PERLU DIPERHATIKAN: Menghapus cache update (DISM) berarti Anda tidak
 echo    dapat mencopot pemasangan update Windows yang sudah terinstal.
 echo ===============================================
 echo.
-:: ASCII Art DANISHTZY24
+
+:: WM dulu gak sih :v
+:: ASCII Art (Danishtzy24)
 chcp 65001 >nul
 echo.
 echo   ██████╗  █████╗ ███╗   ██╗██╗███████╗██╗  ██╗████████╗███████╗██╗   ██╗
@@ -36,7 +38,8 @@ pause >nul
 
 setlocal EnableDelayedExpansion
 
-:: Cek Hak Akses Administrator
+:: Eits, Wajib Run admin dulu yaa agar proses berjalan dengan lancar
+:: Kalian boleh kok modifikasi kode kode yang ada disini sesuka hati kalian, tapi saya udah gak tanggung jawab lagi ya kalau terjadi error atau hal hal buruk lain nya
 net session >nul 2>&1
 if %errorlevel% neq 0 (
     echo.
@@ -52,7 +55,7 @@ echo   %date%  %time%
 echo ===============================================
 echo.
 
-:: LANGKAH PEMBERSIHAN CACHE & LOG (1-7)
+:: Pembersihan dimulai (selesai inisialisasi hehe)
 echo [1/11] Menghapus isi folder %%TEMP%% (User Temp) ...
 rd /s /q "%TEMP%" 2>nul & mkdir "%TEMP%" >nul
 
@@ -98,3 +101,4 @@ echo  Semua sampah utama sistem telah dihapus.
 echo ===============================================
 pause
 exit
+
